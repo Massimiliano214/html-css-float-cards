@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+main {
+    margin: auto;
+    max-width: 1170px;
+}
+h1 {
+    padding: 25px 0 40px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Titan One', cursive;
+    color: rgb(217, 0, 255);
+}
+
+.conteiner {
+    text-align: center;
+}
+
+/*.clearfix::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+*/
+.colonne {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.colonna {
+    vertical-align: middle;
+    width: calc(100% / 3);
+    height: 80px;
+    background-color: black;
+    color: white;
+    float: left;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+.colonna img {
+    float: left;
+    height: 80px;
+    vertical-align: middle;
+}
