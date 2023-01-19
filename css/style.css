@@ -18,30 +18,39 @@ h1 {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Titan One', cursive;
     color: rgb(217, 0, 255);
+    font-weight: lighter;
 }
 
 .conteiner {
     text-align: center;
 }
 
-/*.clearfix::after {
-    clear: both;
-    display: table;
-    content: "";
+p {
+    margin-bottom: 40px;
 }
-*/
-.colonne {
-    margin-top: 40px;
-    padding-bottom: 40px;
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+    
+}
+
+.padd {
+    width: calc(100% / 3);
+    height: 80px;
+    background-color: white;
+    color: white;
+    float: left;
+    padding: 5px;
+    margin: 20px 0;
 }
 
 .colonna {
-    vertical-align: middle;
-    width: calc(100% / 3);
-    height: 80px;
+    text-align: middle;
     background-color: black;
-    color: white;
-    float: left;
+    height: 80px;
 }
 
 a {
@@ -51,5 +60,19 @@ a {
 .colonna img {
     float: left;
     height: 80px;
+}
+
+.font {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Titan One', cursive;
+    font-weight: lighter;
+    padding-top: 40px;
+    font-size: 25px;
     vertical-align: middle;
 }
+
+.colonna :not(img) {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
